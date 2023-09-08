@@ -1,0 +1,6 @@
+{
+  "name": "Node.js Sample",
+  "description": "A barebones Node.js app using Express 4",
+  "repository": "https://github.com/shubhamfff/anywear-backend",
+  "keywords": ["node", "express", "static"]
+}
