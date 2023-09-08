@@ -1,29 +1,17 @@
 {
-  "name": "node-js-sample",
-  "version": "0.2.0",
-  "description": "A sample Node.js app using Express 4",
-  "main": "server.js",
+  "name": "anywear-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.13.3"
-  },
-  "engines": {
-    "node": "4.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shubhamfff/anywear-backend"
-  },
-  "keywords": [
-    "node",
-    "heroku",
-    "express"
-  ],
-  "author": "Cognatech",
-  "contributors": [
-    "Cognatech Solutions <shubham@cognatech.in> (https://www.cognatech.in/)"
-  ],
-  "license": "MIT"
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
 }
